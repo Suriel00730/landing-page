@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(img/3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+.reloj {
+  padding: 0;
+  margin: 0;
+  color: white;
+  display: flex;
+  top: 80px;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+
+.hora {
+  font-size: 130px;
+  font-weight: 800;
+}
+
+.am {
+  display: flex;
+  top: 90px;
+  left: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* position: fixed; */
+}
+
+/* .message {
+  background-color: rgb(156, 187, 214);
+} */
+
+/* position: absolute;
+  top: 20%;
+  left: 25%; */
