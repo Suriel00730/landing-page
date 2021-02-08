@@ -37,7 +37,6 @@ const getPhrase = () => {
     refDiv.innerHTML = `- ${currentVerse.ref}`;
 }
 getPhrase();
-// 0.1 - 0.9 * 4 == 1
 
 const createClock = () => {
     let hora = new Date();
